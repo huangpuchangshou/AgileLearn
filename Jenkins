@@ -1,0 +1,14 @@
+1> What is a Jenkins Executor and how can I best utilize my executors: 
+   https://support.cloudbees.com/hc/en-us/articles/216456477-What-is-a-Jenkins-Executor-and-how-can-I-best-utilize-my-executors 
+   
+   A Jenkins executor is one of the basic building blocks which allow a build to run on a node/slave (e.g. build server). Think
+of an executor as a single “process ID”, or as the basic unit of resource that Jenkins executes on your machine to run a
+build. 
+
+   it is recommended to allocate executors to slave machines, rather than on the Jenkins master - to avoid potential security vulnerabilities,
+Out-Of-Memory and other performance issues.
+
+
+
+Off Load Job execution from Master: # of executors: set to 0.
+
