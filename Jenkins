@@ -5,10 +5,8 @@
 of an executor as a single “process ID”, or as the basic unit of resource that Jenkins executes on your machine to run a
 build. 
 
-   it is recommended to allocate executors to slave machines, rather than on the Jenkins master - to avoid potential security vulnerabilities,
-Out-Of-Memory and other performance issues.
-
-
-
-Off Load Job execution from Master: # of executors: set to 0.
+   it is recommended to allocate executors to slave machines, rather than on the Jenkins master - to avoid potential security 
+   vulnerabilities, Out-Of-Memory and other performance issues.
+   
+   To do this, configure the “# of executors” to ‘0’ on the “master” node (by default this setting is ‘2’)
 
