@@ -15,18 +15,27 @@ build.
        Command: install_plugin.sh
        
    Install Jenkins Plugin Offline: 
-      1> Download plugin*.hpi from website, upload to jenkins master and deploy.
-      2> Download plugin*.hpi from website, call install_plugin.sh to install.
-      Notes: for performance concern, create a Generic Repository for Jenkins Plugin
+      1> Download plugin *.hpi/*.jpi from website, upload to jenkins master and deploy.
+      2> Download plugin *.hpi/*.jpi from website, call install_plugin.sh to install.
+      Notes: for performance concern, create a Generic Repository at JFrog Artifactory for Jenkins Plugin
       
-      [Directly copy *.hpi to plugin folder and restart won't work, but *.jpi do works]
-      
+      [Directly copy *.hpi/old version/ to plugin folder and restart won't work, but *.jpi do works]
+     
+     
     Backup Plugin Folder & Restore:
-    1> Backup the plugin folder of an running jenkins master and copy to new install, then all plugin are installed automatically.
+    1> Backup the plugin folder of an running jenkins master and copy/unzip to new installed jenkins master, then all plugin are 
+    installed automatically.
    
    Notes: please pay attention to dependencies, offline install won't install the dependent plugins
    
    https://github.com/jenkinsci/docker: install with a file & dedicated version: [e.g.] github-branch-source:1.8
-
+ 
+  *hpi is old format, *jpi is new format.
    
-      
+  
+ 3> Custom Update Center
+   You can custom your plugin update center. 
+   1. CloudBees JOC has the plugin to setup your Jenkins Master as the Update Center.
+   2. OpenSource: https://github.com/ikedam/backend-update-center2/wiki/How-to-create-your-own-Jenkins-Update-Center
+   
+  
