@@ -25,6 +25,8 @@ build.
     1> Backup the plugin folder of an running jenkins master and copy to new install, then all plugin are installed automatically.
    
    Notes: please pay attention to dependencies, offline install won't install the dependent plugins
+   
+   https://github.com/jenkinsci/docker: install with a file.
 
    
       
