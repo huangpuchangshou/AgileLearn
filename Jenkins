@@ -40,4 +40,7 @@ build.
    3. https://stackoverflow.com/questions/37986614/jenkins-how-to-change-the-update-center
    4. Latest: https://github.com/jenkins-infra/update-center2
    
-  
+ 4> Secure your Jenkins: 
+   https://www.sans.org/reading-room/whitepapers/bestprac/securing-jenkins-ci-systems-36872
+   
+   
