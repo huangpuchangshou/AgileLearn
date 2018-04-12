@@ -43,4 +43,5 @@ build.
  4> Secure your Jenkins: 
    https://www.sans.org/reading-room/whitepapers/bestprac/securing-jenkins-ci-systems-36872
    
-   
+ 5> Manage your Jenkins Update Center:
+   https://wiki.jenkins.io/display/JENKINS/UpdateSites+Manager+plugin 
