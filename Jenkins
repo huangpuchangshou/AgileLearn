@@ -10,3 +10,19 @@ build.
    
    To do this, configure the “# of executors” to ‘0’ on the “master” node (by default this setting is ‘2’)
 
+2> Install jenkins plugin:
+       GUI: Manage Plugin
+       Command: install_plugin.sh
+       
+   Install Jenkins Plugin Offline: 
+      1> Download plugin*.hpi from website, upload to jenkins master and deploy.
+      2> Download plugin*.hpi from website, call install_plugin.sh to install.
+      Notes: for performance concern, create a Generic Repository for Jenkins Plugin
+      
+    Backup Plugin Folder & Restore:
+    1> Backup the plugin folder of an running jenkins master and copy to new install, then all plugin are installed automatically.
+   
+   Notes: please pay attention to dependencies, offline install won't install the dependent plugins
+
+   
+      
