@@ -19,6 +19,8 @@ build.
       2> Download plugin*.hpi from website, call install_plugin.sh to install.
       Notes: for performance concern, create a Generic Repository for Jenkins Plugin
       
+      [Directly copy *.hpi to plugin folder and restart won't work, but *.jpi do works]
+      
     Backup Plugin Folder & Restore:
     1> Backup the plugin folder of an running jenkins master and copy to new install, then all plugin are installed automatically.
    
