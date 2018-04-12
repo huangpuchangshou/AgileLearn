@@ -38,5 +38,6 @@ build.
    1. CloudBees JOC has the plugin to setup your Jenkins Master as the Update Center.
    2. OpenSource: https://github.com/ikedam/backend-update-center2/wiki/How-to-create-your-own-Jenkins-Update-Center
    3. https://stackoverflow.com/questions/37986614/jenkins-how-to-change-the-update-center
+   4. Latest: https://github.com/jenkins-infra/update-center2
    
   
